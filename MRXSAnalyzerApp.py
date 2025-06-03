@@ -29,10 +29,10 @@ class MRXSAnalyzerApp ():
 
         self.setup_ui()
         # TODO this is for debugging only
-        self.folder_path.set('/Users/natangordon/PycharmProjects/OpenSlide_Hepatic_Fat')
-        self.load_existing_data()
-        self.find_mrxs_files()
-        self.update_file_list()
+        # self.folder_path.set('/Users/natangordon/PycharmProjects/OpenSlide_Hepatic_Fat')
+        # self.load_existing_data()
+        # self.find_mrxs_files()
+        # self.update_file_list()
 
     def setup_ui(self):
         frame = ttk.Frame(self.master, padding=10)
