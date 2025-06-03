@@ -8,10 +8,10 @@ git clone https://github.com/ngordon1git/MRXSFatContentAnalyzerApp.git
 cd MRXSFatContentAnalyzerApp
 
 # Create a virtual environment
-python3 -m venv MRXSFatAnalyzer
+python -m venv MRXSFatAnalyzer
 
 # Activate the virtual environment
-source MRXSFatAnalyzer/bin/activate
+MRXSFatAnalyzer/Scripts/activate
 
 # Install prerequisites
 pip install --upgrade pip

@@ -177,10 +177,11 @@ class MRXSAnalyzerApp ():
         }
 
     def has_results(self, file_path):
+        if not os.path.exists(file_path): return False
         row = self.results_df[self.results_df["file_path"] == file_path]
         if row.empty:
             return False
-        return not row[["fat_content", "std"]].isnull().any(axis=1).values[0]
+        return not row[["fat_content", "fat_content_std"]].isnull().any(axis=1).values[0]
 
     def find_mrxs_files(self):
         self.mrxs_files.clear()
