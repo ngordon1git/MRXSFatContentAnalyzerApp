@@ -1,0 +1,7 @@
+numpy
+opencv-python
+pillow
+pandas
+matplotlib
+openslide-bin
+openslide-python
